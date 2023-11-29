@@ -1,0 +1,142 @@
+body {
+    background: linear-gradient(to right, #ffc1d7, #ffd7df, #ffe2e8, #ffefe2, #fee6cf, #ffe3cb);
+    height: auto;
+    margin: 0;
+    padding: 0;
+
+}
+
+#imgbanier {
+    vertical-align: middle;
+    width: 100%;
+    margin: 0;
+}
+
+
+/* Dans votre feuille de style CSS ou balise style dans le fichier Blade */
+button {
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    color: bisque;
+}
+
+.logo {
+    width: 60px;
+    height: 60px;
+    transition: filter 0.3s ease;
+}
+
+.logo:hover {
+    filter: drop-shadow(0 -6mm 4mm rgb(255, 158, 186));
+}
+
+.banier {
+    /* Set the background image */
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.card {
+    border-color: rgb(132, 0, 255);
+    font-size: 12px;
+    transition: filter 0.3s ease;
+    /* Ajouter une transition pour la propriété filter */
+}
+
+.card:hover {
+    filter: drop-shadow(16px 16px 5px rgb(219, 180, 255));
+}
+
+#name_drinker {
+    margin-bottom: 10px;
+    color: rgb(6 37 213);
+}
+
+
+#addproduct {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 180px;
+}
+
+#order div {
+    display: inline-block;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 50px;
+    /* Ajoutez la marge que vous souhaitez entre les éléments */
+    vertical-align: auto;
+    /* Ajuste l'alignement vertical au besoin */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-bottom: 20px;
+    border: 3px solid rgb(132, 0, 255);
+    padding: 10px;
+    background-color: rgba(255, 130, 130, 0.121);
+}
+
+.center_1 {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+hr {
+    height: 5px;
+    background-color: rgb(0, 0, 0);
+    padding-bottom: 10px;
+}
+
+#story div {
+    display: flex;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 10px;
+    /* Ajoutez la marge que vous souhaitez entre les éléments */
+    vertical-align: auto;
+    /* Ajuste l'alignement vertical au besoin */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-bottom: 20px;
+    border: 3px solid rgb(132, 0, 255);
+    padding: 10px;
+    background-color: rgba(255, 130, 130, 0.121);
+}
+
+#addbtn {
+    width: 150px;
+    margin-left: 28px;
+}
+
+#present_texte {
+    display: flex;
+    align-items: center;
+}
+
+#present_texte>div {
+    flex: 1;
+    margin-right: 20px;
+    margin-top: 20px;
+    /* Ajoutez une marge entre les deux div si nécessaire */
+}
+
+#texte {
+    margin-left: 20px;
+
+}
+
+.img_home_page {
+    position: relative;
+    margin-bottom: 25px;
+    margin-left: 21px;
+    width: 90%;
+}
+
+#bottom_footer {
+    position: absolute;
+    width: 100%;
+}

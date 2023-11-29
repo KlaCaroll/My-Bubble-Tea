@@ -1,0 +1,106 @@
+/* Ajouter ces styles à votre fichier css/homepage.css */
+
+body {
+    font-family: 'figtree', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right,#ffc1d7, #ffd7df, #ffe2e8, #ffefe2, #fee6cf, #ffe3cb);
+    height: auto; 
+}
+
+.min-h-screen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.logo {
+    width: 300;
+    height: 280px;
+    margin-bottom: 20px;
+    filter: drop-shadow(0 -6mm 4mm rgb(222, 112, 255));
+}
+
+form {
+    width: 400px;
+    max-width: 300px; /* Réduire la largeur du formulaire */
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-bottom: 20px;
+    border: 3px solid #7faef1;
+}
+
+
+label {
+    display: block;
+    font-weight: 500;
+    font-size: 0.875rem;
+    color: #374151;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+input {
+    width: 280px;
+    padding: 10px; /* Réduire la taille du texte */
+    border: 1px solid #e5e7eb;
+    border-radius: 4px;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+input:focus {
+    border-color: #2563eb;
+}
+
+#remember_me{
+    display: flex;
+    align-items: center;
+    margin-bottom: -15px;
+    margin-top: 40px;
+}
+
+
+#remember_me-label {
+    font-size: 0.875rem;
+    color: #4b5563;
+}
+
+a {
+    margin-top: 10px;
+    font-size: 0.875rem;
+    color: #6b7280;
+    text-decoration: none;
+    transition: color 0.3s;
+    padding-right: 80px;
+}
+
+a:hover {
+    color: #9333ea;
+}
+
+button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px; /* Réduire la taille du bouton */
+    background-color: #4b5563;
+    color: #ffffff;
+    border: 1px solid #4b5563;
+    border-radius: 4px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    padding-left: 10px;
+    margin-top: 30px;
+}
+
+button:hover {
+    background-color: #9333ea;
+}
